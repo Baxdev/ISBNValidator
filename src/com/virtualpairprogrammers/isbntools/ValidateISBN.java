@@ -4,7 +4,7 @@ public class ValidateISBN {
 
     public boolean checkISBN(String isbn) {
 
-        return isbn == "014";
+        return isbn == "0148";
 
     }
 }

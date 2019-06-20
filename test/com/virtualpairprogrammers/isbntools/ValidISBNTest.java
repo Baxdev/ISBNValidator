@@ -10,7 +10,7 @@ public class ValidISBNTest {
     @Test
     public void checkAValidISBN() {
         ValidateISBN validator = new ValidateISBN();
-        boolean result = validator.checkISBN("014");
+        boolean result = validator.checkISBN("0148");
         assertTrue("first value", result);
     }
 
